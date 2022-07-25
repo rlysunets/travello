@@ -1,0 +1,38 @@
+[
+    {
+        "img": "amsterdam.jpg",
+        "alt": "Amsterdam, Holland"
+    },
+    {
+        "img": "bangkok.jpg",
+        "alt": "Bangkok, Thailand"
+    },
+    {
+        "img": "budapest.jpg",
+        "alt": "Budapest, Hungary"
+    },
+    {
+        "img": "krakov.jpg",
+        "alt": "Krakov, Poland"
+    },
+    {
+        "img": "lviv.jpg",
+        "alt": "Lviv, Ukraine"
+    },
+    {
+        "img": "praga.jpg",        
+        "alt": "Praga, Czech Republic"
+    },
+    {
+        "img": "roma.jpg",        
+        "alt": "Roma, Italy"
+    },
+    {
+        "img": "romania.jpg",        
+        "alt": "Transylvania, Romania"
+    },
+    {
+        "img": "fjord.jpg",        
+        "alt": "Sognefjord, Norway"
+    }
+]

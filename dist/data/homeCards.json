@@ -1,0 +1,22 @@
+[
+    {
+        "img": "guide.svg",
+        "title": "Full Guide",
+        "descr": "Colossal experience, trust of tourists and cooperation with the best partners."
+    },
+        {
+        "img": "transport.svg",
+        "title": "Transport",
+        "descr": "From where you are to where you want to be."
+    },
+        {
+        "img": "book.svg",
+        "title": "Easy Book",
+        "descr": "You can compare prices across airlines, hotels, and car rentals."
+    },
+        {
+        "img": "fire.svg",
+        "title": "Camp Fire",
+        "descr": "A combination of crazy adventures, driving rest and unforgettable emotions."
+    }
+]

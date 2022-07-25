@@ -1,0 +1,17 @@
+[
+    {
+        "img": "money.svg",
+        "title": "Fast Booking",
+        "descr": "Colossal experience, trust of tourists and cooperation with the best partners."
+    },
+        {
+        "img": "transport2.svg",
+        "title": "Private Transport",
+        "descr": "From where you are to where you want to be."
+    },
+        {
+        "img": "beach.svg",
+        "title": "Diverse Destinations",
+        "descr": "You can compare prices across airlines, hotels, and car rentals."
+    }
+]

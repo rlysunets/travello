@@ -1,0 +1,32 @@
+[
+    {
+        "img": "food.svg",
+        "title": "Food & Drink",
+        "descr": "Breakfast included in all tours."
+    },
+    {
+        "img": "transportation.svg",
+        "title": "Transportation",
+        "descr": "From where you are to where you want to be."
+    },
+    {
+        "img": "accommodation.svg",
+        "title": "Accommodation",
+        "descr": "Accommodation only in verified hotels. Three stars and above."
+    },
+    {
+        "img": "medical.svg",
+        "title": "Medical",
+        "descr": "Full medical insurance is included in all tours."
+    },
+    {
+        "img": "tour_guide.svg",
+        "title": "Tour Guide",
+        "descr": "We provide travel guide for all tours in our App."
+    },
+    {
+        "img": "camp_fire.svg",
+        "title": "Camp Fire",
+        "descr": "We offer an extreme vacation. Only nature and You."
+    }
+]
