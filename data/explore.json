@@ -1,0 +1,34 @@
+[
+    {
+        "image1": "image2.jpg",
+        "image2": "image6.jpg",
+        "hint": "About us",
+        "title": "Explore world with us",
+        "p1": "Currently, we are actively developing the exotic direction, having prepared for you a whole series of trips to exotic countries with rest on the sea and ocean, on fabulous islands, wonderful beaches, in the birthplaces of the most ancient civilizations.",
+        "p2": "Fantastic landscapes and unusual excursions to the legendary sights of the await you."
+    },
+    {
+        "image1": "image4.jpg",
+        "image2": "image3.jpg",
+        "hint": "About us",
+        "title": "Explore world with us",
+        "p1": "From destination weddings to corporate retreats to family reunions, turn your special occasion into a memorable getaway with the experts at Travello. They’ll plan a custom group vacation package complete with elevated services, exclusive rates, and unique amenities for a celebration you and your guests will never forget.",
+        "p2": "Beautiful coasts, lush hills, stunning mountains, colonial architecture…"
+    },
+    {
+        "image1": "image6.jpg",
+        "image2": "image5.jpg",
+        "hint": "About us",
+        "title": "Explore world with us",
+        "p1": "Your mission matters. Travel brings people together. Whether you’re planning a school trip, volunteer vacation, or getaway with your religious group, Travello can book flights, rooms, and craft custom itineraries.",
+        "p2": "From romantic escapes to fun family time, your next getaway is waiting with our custom-curated, all-inclusive vacation packages at these incredible hotels and resorts."
+    },
+    {
+        "image1": "image9.jpg",
+        "image2": "image7.jpg",
+        "hint": "About us",
+        "title": "Explore world with us",
+        "p1": "What better way to reward top-performing employees and clients than by sending them away on an incredible vacation? Get the motivation flowing with incentive travel and let Travello consultants ensure your company's stars are given the VIP treatment they deserve.",
+        "p2": "Fantastic landscapes and unusual excursions to the legendary sights of the await you."
+    }
+]

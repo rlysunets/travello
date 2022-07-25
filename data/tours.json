@@ -1,0 +1,136 @@
+[
+    {   
+        "slug": "Amsterdam",
+        "img": "amsterdam.jpg",
+        "title": "The city and port, western Netherlands, located on the IJsselmeer and connected to the North Sea.",
+        "city": "Amsterdam",
+        "country": "Netherlands",
+        "duration": "7 days",
+        "price": "from £899",
+        "type": "Cultural",
+        "descr": {
+            "p1": "Visit the world-famous 17th century capital of Holland. Enjoy the historic buildings, beautiful museums and pleasant ambiance. Go for a boat tour on the canals, stroll through Vondelpark, and go shopping in the inner city. Amsterdam is a unique city!",
+            "p2": "Amsterdam is alive with creative initiatives. From cultural melting pots and the hippest restaurants with phenomenal views to workshops and interior design shops with vintage items. ",
+            "p3": "NDSM’s innovative bars and cafes are another of the area’s biggest attractions. A firm favorite for many is Pllek, a wonderful spot that was constructed using recycled shipping containers and offers magnificent views of the IJ and its banks. The menu is fully organic, featuring only the highest-quality cuts of meat, sustainably caught fish and local produce. Nearby, Noorderlicht Café is situated in a large greenhouse that promises one of the best-positioned terraces in the neighborhood, packed with greenery and overlooking the River IJ. Its interior is peppered with quirky uneven furniture and décor, adding to the nonchalant bohemian feel. There’s also Café de Ceuvel, an uncompromisingly unconventional café that’s striving for complete sustainability."
+        }
+    },
+    {   
+        "slug": "Bangkok",
+        "img": "bangkok.jpg",
+        "title": "Bangkok, Thai Krung Thep, city, capital, and chief port of Thailand.",
+        "city": "Bangkok",
+        "country": "Thailand",
+        "duration": "14 days",
+        "price": "from £1699",
+        "type": "Histoty",
+        "descr": {
+            "p1": "Bangkok is one of the world's top tourist destinations. Of 162 cities worldwide, MasterCard ranked Bangkok as the top destination city by international visitor arrivals in its Global Destination Cities Index 2018, ahead of London, with just over 20 million overnight visitors in 2017.This was a repeat of its 2017 ranking. Euromonitor International ranked Bangkok fourth in its Top City Destinations Ranking for 2016. Bangkok was also named 'World's Best Cit' by Travel + Leisure magazine's survey of its readers for four consecutive years, from 2010 to 2013. As the main gateway through which visitors arrive in Thailand, Bangkok is visited by the majority of international tourists to the country. Domestic tourism is also prominent. The Department of Tourism recorded 26,861,095 Thai and 11,361,808 foreign visitors to Bangkok in 2010. Lodgings were made by 15,031,244 guests, who occupied 49.9 percent of the city's 86,687 hotel rooms. Bangkok also topped the list as the world's most popular tourist destinations in 2017 rankings.",
+            "p2": "The climate of Bangkok is hot throughout the year, ranging from 77 °F (25 °C) in the “cold” season in December to 86 °F (30 °C) at the height of the hot season in April. The mean annual rainfall totals 60 inches (1,500 mm), four-fifths of which falls in brief torrential downpours during the late afternoons of the rainy season, which lasts from mid-May through September; the dry season lasts from December to February. Mean monthly relative humidity varies from a low of 60 percent in the cold season to more than 80 percent during the rainy season.",
+            "p3": "Bangkok, Thai Krung Thep, city, capital, and chief port of Thailand. It is the only cosmopolitan city in a country of small towns and villages and is Thailand’s cultural and commercial centre."
+        }
+    },
+    {   
+        "slug": "Budapest",
+        "img": "budapest.jpg",
+        "title": "Weekend in Budapest!",
+        "city": "Budapest",
+        "country": "Hungary",
+        "duration": "3 days",
+        "price": "from £250",
+        "type": "Cultural",
+        "descr": {
+            "p1": "Budapest is the capital and most populous city of Hungary. It is the ninth-largest city in the European Union by population within city limits and the second-largest city on Danube river; the city has an estimated population of 1,752,286 over a land area of about 525 square kilometres (203 square miles). Budapest, which is both a city and county, forms the centre of the Budapest metropolitan area, which has an area of 7,626 square kilometres (2,944 square miles) and a population of 3,303,786, comprising 33% of the population of Hungary.",
+            "p2": "The central area of Budapest along the Danube River is classified as a UNESCO World Heritage Site and has several notable monuments of classical architecture, including the Hungarian Parliament and the Buda Castle.The city also has around 80 geothermal springs, the largest thermal water cave system,second largest synagogue, and third largest Parliament building in the world.Budapest attracts around 12 million international tourists per year, making it a highly popular destination in Europe.It also topped the Best European Destinations 2020 list by Big7Media. Budapest also ranks as the third-best European city in a similar poll conducted by Which?."
+        }
+    },
+    {   
+        "slug": "Krakov",
+        "img": "krakov.jpg",
+        "title": "Krakow is one of the most beautiful cities in Europe",
+        "city": "Krakov",
+        "country": "Poland",
+        "duration": "7 days",
+        "price": "from £550",
+        "type": "Histoty",
+        "descr": {
+            "p1": "Krakow is a large and beautiful city with a huge number of houses, residents, bazaars, vineyards and gardens. Kraków, the royal city continues to delight the guests who come to it. Thanks to the kind history of Krakow, we can admire this preserved unique structure of the city to this day.",
+            "p2": "Today's Krakow is an integral synthesis of history and modernity. Guests arriving in the city can spend time not only exploring the numerous sights of the city, but also in charming cafes, pubs and restaurants. There are more than 200 of them in the oldest city alone. Kraków's cabarets, concert halls and theaters open their doors hospitably to spectators and connoisseurs of high art.",
+            "p3": "It is difficult to determine the best time to travel to the Polish capital. In this excursion city, there are no such concepts as 'high season' or 'low season'. However, according to locals, significantly more tourists come here in the warm season."
+        }
+    },
+    {   
+        "slug": "Lviv",
+        "img": "lviv.jpg",
+        "title": "Lviv is the cultural capital of Ukraine",
+        "city": "Lviv",
+        "country": "Ukraine",
+        "duration": "10 days",
+        "price": "from £1599",
+        "type": "Hike",
+        "descr": {
+            "p1": "Lviv is a city that was built with the love to harmony, with truly European charm and wonderfully delicate understanding of a beauty. The special mood and style always dominate here, which affect on everything: the names of small shops and cafes, the refined facade of the buildings, the beautiful and originally designed windows, the historical houses’ interiors in the central part of a city. At all times Lviv was well known in Europe.",
+            "p2": "In Europe among Lviv museums the most considerable are: the Lviv Arts Gallery, National Museum, Historical Museum, Museum of History of Religion, Museum of Ethnography and Art, Pharmacy-Museum, Literary and Memorial Museum of Ivan Franco, Literary and Memorial Museum of S. Krushel’nyc’ka, Museum of Folk Architecture and Rural Life, Museum of Natural Scientist, Museum of “Mermaid Dniester”, Arsenal Museum.",
+            "p3": "Talented masters, such as builders, architects, magnates and patrons of art, created an unique pearl of the architecture. If you arrive in Lviv, you will feel an unique spirit, taste, and passion of Galicia. Passed the narrow streets of the old city, went all round the Rynok Square, set and dreamed in some café, glanced on a city from the hummock of the Hill Vysokyi Zamok, you would feel mysticism and spirit of the Middle Ages."
+        }
+    },
+    {   
+        "slug": "Prague",
+        "img": "praga.jpg",
+        "title": "Sunny Prague",
+        "city": "Prague",
+        "country": "Chech repablick",
+        "duration": "12 days",
+        "price": "from £1250",
+        "type": "Cultural",
+        "descr": {
+            "p1": "Prague is the capital of the Czech Republic; the largest metropolis and the most popular tourist center in Europe, annually receiving more than 6 million guests. Everyone who knows at least a little about the beauty of architecture and beer dreams of visiting this elegant and benevolent city. Since ancient times, Prague has been considered the most beautiful city in Europe, and its names - 'golden Prague', 'stone dream', 'city of a hundred spires' speak eloquently about this. Prague is narrow cobbled streets, the amazing Charles Bridge, a lot of unique sights, unforgettable Czech cuisine.",
+            "p2": "Prague is located on nine hills, which create an impressive panorama of unique views of the city, where not the last place is occupied by Prague gardens - spacious green areas.",
+            "p3": "Celetnaya Street will lead you to Staromestskaya Square, famous for its many attractions, the most famous of which is the astronomical clock with moving figures at the City Hall. Opposite the town hall stands the Church of the Virgin Mary of Tynskaya with the richest interior decoration - a fine example of the Gothic style. You can enter the cathedral for free, but photography and videography are prohibited. The church of St. Nicholas competes with the church for the beauty of the interior, the style of this religious building is Baroque. In the center of the square stands a monument to the country's national hero Jan Hus."
+        }
+    },
+    {   
+        "slug": "Roma",
+        "img": "roma.jpg",
+        "title": "Excursion to the eternal city!",
+        "city": "Roma",
+        "country": "Italy",
+        "duration": "7 days",
+        "price": "from £699",
+        "type": "Histoty",
+        "descr": {
+            "p1": "Rome is the capital and largest city of Italy. The administrative center of the Lazio region and the territorial unit of the same name, Rome, which is equated to a province. Located on the Tiber River.",
+            "p2": "Founded in 753 BC. e. Rome is one of the oldest cities in Europe, the ancient capital of the Roman Empire. Even in antiquity (III century AD), Rome was called the Eternal City (lat. Roma Aeterna, Urbs Aeterna). The Roman poet Albius Tibullus (1st century BC) called Rome that way in his second elegy. Ideas about the 'eternity' of Rome were largely preserved even after the fall of the ancient Roman civilization, bringing the corresponding epithet into modern languages.",
+            "p3": "Rome is also called 'the city on seven hills.' Initially, the settlements were located on the Palatine Hill, later the neighboring hills were settled: Capitol and Quirinal. Somewhat later, settlements appeared on the last four hills (Celia, Aventine, Esquiline and Viminale)."
+        }
+    },
+    {   
+        "slug": "Transylvania",
+        "img": "romania.jpg",
+        "title": "Weekend at Dracula's Castle",
+        "city": "Transylvania",
+        "country": "Romania",
+        "duration": "4 days",
+        "price": "from £400",
+        "type": "Hike",
+        "descr": {
+            "p1": "Transylvania (Romanian: Ardeal or Transilvania; Hungarian: Erdély; German: Siebenbürgen) is a historical region in central Romania. To the east and south its natural border is the Carpathian Mountains, and to the west the Apuseni Mountains. Broader definitions of Transylvania also encompass the western and north-western Romanian regions Crișana and Maramureș and occasionally Banat.",
+            "p2": "Transylvania is known for both the scenery of its Carpathian landscape and its rich history. It also contains the nation's fourth-largest city, Cluj-Napoca, as well as other cities and towns such as Brașov, Sibiu, Târgu Mureș, Alba Iulia and Sighișoara. Transylvania is also the home of some of Romania's UNESCO World Heritage Sites such as the Villages with fortified churches, the Historic Centre of Sighișoara, the Dacian Fortresses of the Orăștie Mountains and the Roșia Montană Mining Cultural Landscape.",
+            "p3": "In popular culture, Transylvania is commonly associated with vampires because of the influence of Bram Stoker's 1897 novel Dracula and subsequent books and many films that have been inspired by the tale."
+        }
+    },
+    {   
+        "slug": "Sognefjord",
+        "img": "fjord.jpg",
+        "title": "In the heart of Fjord Norway",
+        "city": "Sognefjord",
+        "country": "Norway",
+        "duration": "12 days",
+        "price": "from £1600",
+        "type": "Hike",
+        "descr": {
+            "p1": "On this tour, you travel by a comfortable express boat on the impressive Sognefjord. Along the way, you can 'hop off' and spend one or more nights in one of the small villages by the stunning fjord. While taking a fjord break you can explore the spectacular landscape or join in on some of the exciting activities the Sognefjorda area has to offer.",
+            "p2": "In addition to a stunning fjord cruise on the Sognefjord, you get a train ride with the spectacular Flåmsbana, which has several times been named as 'the world's most beautiful train ride'. The tour also includes a comfortable journey with the Bergen Railway, where you can relax and enjoy the beautiful mountain landscape passing by your window.",
+            "p3": "The Sognefjord in a nutshell trip can be taken as a day trip, but we highly recommend that you to take the trip as a longer experience over several days. Feel free to spend a few nights in one of the small villages along the Sognefjord where you can join in on exciting activities, or to find peace in the inspiring landscape."
+        }
+    }
+]

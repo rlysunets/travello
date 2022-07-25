@@ -1,0 +1,82 @@
+[
+    {
+        "image": "image1.jpg",
+        "hint": "What they say",
+        "title": "Customer Reviews",
+        "descr": "A perfectly organized trip, everything proposed in the program was fulfilled, professional work of managers, group leader and drivers, comfortable bus. Only positive impressions, I recommend traveling with this travel company.",
+        "name": "Heather G.",
+        "date": "7/12/2022"
+    },
+    {
+        "image": "image2.jpg",
+        "hint": "What they say",
+        "title": "Customer Reviews",
+        "descr": "I had a great experience with Maris. She was very responsive and helped me secure somewhat last minute flights/hotel to London.  She guided me through the process and advised me on some things I would have fully thought of myself, like the different kinds of insurance!",
+        "name": "Anonymous",
+        "date": "7/13/2022"
+    },
+    {
+        "image": "image3.jpg",
+        "hint": "What they say",
+        "title": "Customer Reviews",
+        "descr": "Always a pleasure working with Ann. She’s always so helpful and quick to respond. We’ve been booking trips with her for many years and will continue to do so.",
+        "name": "Janice",
+        "date": "7/10/2022"
+    },
+    {
+        "image": "image4.jpg",
+        "hint": "What they say",
+        "title": "Customer Reviews",
+        "descr": "Very polite and friendly, travel plans were exactly what I was looking for",
+        "name": "Russell",
+        "date": "7/09/2022"
+    },
+    {
+        "image": "image5.jpg",
+        "hint": "What they say",
+        "title": "Customer Reviews",
+        "descr": "Excellent customer service attention, all the staff was attentive and helpful, Kudos to Kerri & Francisco, great support and always willing to assist me.",
+        "name": "Debbie",
+        "date": "7/03/2022"
+    },
+        {
+        "image": "image6.jpg",
+        "hint": "What they say",
+        "title": "Customer Reviews",
+        "descr": "After a long two years of waiting to plan our family vacation I called liberty travel to help me with the booking. Jackie was out travel agent and i have to say she was amazing !!!! She went above and beyond for us. She was so informative about the destination. My family is so excited for out trip ! Thank you Jackie !! Your awesome",
+        "name": "Kurt",
+        "date": "7/01/2022"
+    },    {
+        "image": "image7.jpg",
+        "hint": "What they say",
+        "title": "Customer Reviews",
+        "descr": "Andrea was so easy to work with! She helped my and my future husband boom our honeymoon and it was as simple as telling her our dates and location and she got right back to us with two options and was willing to find more if either of those didn’t work. She always answer the phone right away or called back within minutes.",
+        "name": "Mary",
+        "date": "6/20/2022"
+    },    
+    {
+        "image": "image8.jpg",
+        "hint": "What they say",
+        "title": "Customer Reviews",
+        "descr": "Compared to how I was handled  or should I say not handled with the Covid close down of my local branch  working with Samantha and Laurie has been refreshing.",
+        "name": "John H.",
+        "date": "6/15/2022"
+    },
+        {
+        "image": "image9.jpg",
+        "hint": "What they say",
+        "title": "Customer Reviews",
+        "descr": "I have had the pleasure of working with Mandy she was very polite, friendly quick and efficient. And I don’t anticipate any problems during the booking and planning of my trip. She has meant all of my needs thus far",
+        "name": "Jorg N.",
+        "date": "6/01/2022"
+    },
+        {
+        "image": "image10.jpg",
+        "hint": "What they say",
+        "title": "Customer Reviews",
+        "descr": "Excellent services.",
+        "name": "Kate",
+        "date": "5/29/2022"
+    }
+    
+]
