@@ -52,7 +52,7 @@
                     <p>{{ oneItem.descr.p3 }}</p>
                 </div>
             </div>
-            <ask title="Like this tour? Contact to book" />
+            <ask title="Like this tour? Contact us to book" />
         </section-wrapper>
     </div>
 </template>
@@ -79,9 +79,6 @@ export default {
             .then(resp => {
                 this.oneItem = resp.data.find(el => el.slug === this.$route.params.slug)
             })
-            // .catch(() => {
-            //     $router.push('/:pathMatch(.*)*')
-            // })
     }
 }
 </script>

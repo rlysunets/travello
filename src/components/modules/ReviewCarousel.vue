@@ -1,7 +1,7 @@
 <template>
     <section class="reviews">
         <div class="container">
-            <carousel v-if="reviewsData.length !==0" :settings="settings">
+            <carousel v-if="reviewsData.length !== 0" :settings="settings">
                 <slide v-for="(item) in reviewsData" :key="item">
                     <review :image="item.image" :hint="item.hint" :title="item.title" :descr="item.descr"
                     :name="item.name" :date="item.date" />
