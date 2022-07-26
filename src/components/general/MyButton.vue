@@ -52,7 +52,7 @@ export default {
         color: #2194e6;
         background-color: #FFFFFF;
         outline: 2px solid #2194e6;
-        transition: all .3s ease;
+        transition: all .5s ease;
         svg {
             fill: #2194e6;
         }

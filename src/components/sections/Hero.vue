@@ -27,7 +27,7 @@ export default {
 <style lang="scss" scoped>
 .hero {
     margin-bottom: 60px;
-    background-image: url(@/assets/images/home/hero.jpg);
+    background-image: url(@/assets/images/intro/hero_home.jpg);
     background-color: #2194e6;
     background-repeat: no-repeat;
     background-position: 70% 0;
