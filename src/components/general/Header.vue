@@ -78,7 +78,7 @@
                             <li class="menu-mobile_item">
                                 <router-link class="menu-mobile_link" to="/news" @click="toggleMenu">News</router-link>
                             </li>
-                            <div class="header_button">
+                            <div class="header_button" @click="toggleMenu">
                                 <my-button title="Contact us" :is-icon="false" @click="$router.push('/contacts')" />
                             </div>
                         </ul>
@@ -122,6 +122,10 @@ export default {
 </script>
 
 <style lang="scss">
+
+
+
+
 @import "@/assets/css/humburger.scss";
 #overlay {
     display: none;
@@ -138,7 +142,7 @@ export default {
     }
 }
 #header {
-    background-color: rgba(85, 183, 255, .6);
+    background-color: rgba(87, 185, 255, 0.6);
     position: fixed;
     z-index: 1010;
     left: 0;
@@ -199,7 +203,8 @@ export default {
     padding-left: 30px;
     position: fixed;
     width: 350px;
-    background-color: rgb(85, 183, 255);
+    background: rgb(42, 107, 209);
+        background: linear-gradient(90deg, rgba(42, 107, 209, 1) 0%, rgba(33, 148, 230, 1) 21%, rgba(57, 160, 233, 1) 51%, rgba(104, 178, 233, 1) 100%);
     box-shadow: 0 0 10px #FFF;
     backdrop-filter: blur(10px);
     height: 100vh;

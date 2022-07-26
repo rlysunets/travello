@@ -16,7 +16,7 @@
             </cards-wrapper>
         </section-wrapper>
 
-        <section-wrapper hint="About us" title="Numbers speaks louder" class="blue_bg">
+        <section-wrapper hint="About us" title="Numbers speak louder" class="blue_bg">
             <numbers />
         </section-wrapper>
 
