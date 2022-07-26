@@ -32,7 +32,6 @@ export default {
 </script>
 
 <style lang="scss">
-
 .btn {
     display: flex;
     align-items: center;
@@ -59,8 +58,6 @@ export default {
     }
     span {
         margin-right: 10px;
-
-
     }
 }
 </style>
