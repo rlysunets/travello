@@ -41,7 +41,7 @@ export default {
     },
     created() {
         axios
-            .get("../data/address.json")
+            .get("data/address.json")
             .then(resp => {
                 this.addressData = resp.data
             })

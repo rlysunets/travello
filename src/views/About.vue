@@ -55,12 +55,12 @@ export default {
     },
     created() {
         axios
-            .get("../data/explore.json")
+            .get("data/explore.json")
             .then(resp => {
                 this.exploreData = resp.data
             })
         axios
-            .get("../data/whyUsCards.json")
+            .get("data/whyUsCards.json")
             .then(resp => {
                 this.whyUsCardsData = resp.data
             })

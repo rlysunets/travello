@@ -25,7 +25,7 @@ export default {
     },
     created() {
         axios
-            .get("../data/explore.json")
+            .get("data/explore.json")
             .then(resp => {
                 this.exploreData = resp.data
             })

@@ -75,7 +75,7 @@ export default {
     },
     created() {
         axios
-            .get('../data/tours.json')
+            .get('data/tours.json')
             .then(resp => {
                 this.oneItem = resp.data.find(el => el.slug === this.$route.params.slug)
             })

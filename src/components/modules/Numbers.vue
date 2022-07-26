@@ -26,7 +26,7 @@ export default {
     created() {
         window.addEventListener("scroll", this.startCounters)
         axios
-            .get("../data/numbers.json")
+            .get("data/numbers.json")
             .then(resp => {
                 this.numbersData = resp.data
             })

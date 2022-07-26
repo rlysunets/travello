@@ -33,7 +33,7 @@ export default {
     },
     created() {
         axios
-            .get("../data/faq.json")
+            .get("data/faq.json")
             .then(resp => {
                 this.faqData = resp.data
             })

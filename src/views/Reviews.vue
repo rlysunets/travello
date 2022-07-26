@@ -27,7 +27,7 @@ export default {
     },
     created() {
         axios
-            .get("../data/reviews.json")
+            .get("data/reviews.json")
             .then(resp => {
                 this.reviewsData = resp.data
             })

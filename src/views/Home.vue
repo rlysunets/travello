@@ -4,8 +4,7 @@
 
         <div class="container">
             <template v-for="(item, i) in exploreData">
-                <explore :key="i" v-if="i === 0" :image1="item.image1" :image2="item.image2" :hint="item.hint"
-                    :title="item.title" :p1="item.p1" :p2="item.p2" />
+                <explore :key="i" v-if="i === 0" :image1="item.image1" :image2="item.image2" :hint="item.hint" :title="item.title" :p1="item.p1" :p2="item.p2" />
             </template>
         </div>
 
@@ -46,13 +45,13 @@ export default {
     },
     created() {
         axios
-            .get("../data/explore.json")
+            .get("data/explore.json")
             .then(resp => {
                 this.exploreData = resp.data
             })
 
         axios
-            .get("../data/homeCards.json")
+            .get("data/homeCards.json")
             .then(resp => {
                 this.homeCardsData = resp.data
             })

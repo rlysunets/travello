@@ -9,7 +9,8 @@
                 <div class="news_item" v-for="(item, i) in newsList" :key="i">
                     <router-link :to="{ name: 'oneNews', params: { title: item.title } }">
                         <div class="item_pic">
-                            <img :src="item.urlToImage" :alt="item.title" @error="errorImg">
+                            <img v-if="item.urlToImage !== null" :src="item.urlToImage" :alt="item.title" @error="errorImg">
+                            <img v-else :src="require('@/assets/images/no-image-available.png')" :alt="item.title">
                         </div>
                         <div class="item_content">
                             <h2 class="title">{{ item.title }}</h2>
@@ -38,8 +39,8 @@ export default {
 },
     data() {
         return {
-            // API_key: "76498ae586a94328ac5ccba99185f515",
-            API_key: "1c05599a56d5486e85cd22b247e1bac8",
+            API_key: "76498ae586a94328ac5ccba99185f515",
+            // API_key: "1c05599a56d5486e85cd22b247e1bac8",
             q: "tourism",
             newsList: [],
             page: 1,
@@ -102,7 +103,6 @@ export default {
     justify-content: space-between;
     .news_item {
         padding: 20px;
-        // flex-basis: 33%;
         display: flex;
         flex-direction: column;
         max-width: 33%;

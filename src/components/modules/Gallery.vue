@@ -28,7 +28,7 @@ export default {
     },
     created() {
         axios
-            .get("../data/gallery.json")
+            .get("data/gallery.json")
             .then(resp => {
                 this.galleryData = resp.data
             })
