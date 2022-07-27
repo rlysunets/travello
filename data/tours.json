@@ -2,7 +2,7 @@
     {   
         "slug": "Amsterdam",
         "img": "amsterdam.jpg",
-        "title": "The city and port, western Netherlands, located on the IJsselmeer and connected to the North Sea.",
+        "title": "Evening Amsterdam",
         "city": "Amsterdam",
         "country": "Netherlands",
         "duration": "7 days",
@@ -17,7 +17,7 @@
     {   
         "slug": "Bangkok",
         "img": "bangkok.jpg",
-        "title": "Bangkok, Thai Krung Thep, city, capital, and chief port of Thailand.",
+        "title": "Three Temples Bangkok City Tour",
         "city": "Bangkok",
         "country": "Thailand",
         "duration": "14 days",
@@ -32,7 +32,7 @@
     {   
         "slug": "Budapest",
         "img": "budapest.jpg",
-        "title": "Weekend in Budapest!",
+        "title": "Weekend In Budapest!",
         "city": "Budapest",
         "country": "Hungary",
         "duration": "3 days",
@@ -46,7 +46,7 @@
     {   
         "slug": "Krakov",
         "img": "krakov.jpg",
-        "title": "Krakow is one of the most beautiful cities in Europe",
+        "title": "Krakow Old Town Guided Walking Tour",
         "city": "Krakov",
         "country": "Poland",
         "duration": "7 days",
@@ -61,7 +61,7 @@
     {   
         "slug": "Lviv",
         "img": "lviv.jpg",
-        "title": "Lviv is the cultural capital of Ukraine",
+        "title": "Lviv - Cultural Capital Of Ukraine",
         "city": "Lviv",
         "country": "Ukraine",
         "duration": "10 days",
@@ -78,7 +78,7 @@
         "img": "praga.jpg",
         "title": "Sunny Prague",
         "city": "Prague",
-        "country": "Chech repablick",
+        "country": "Chech Repablick",
         "duration": "12 days",
         "price": "from £1250",
         "type": "Cultural",
@@ -91,7 +91,7 @@
     {   
         "slug": "Roma",
         "img": "roma.jpg",
-        "title": "Excursion to the eternal city!",
+        "title": "Excursion To The Eternal City!",
         "city": "Roma",
         "country": "Italy",
         "duration": "7 days",
@@ -106,7 +106,7 @@
     {   
         "slug": "Transylvania",
         "img": "romania.jpg",
-        "title": "Weekend at Dracula's Castle",
+        "title": "Weekend At Dracula's Castle",
         "city": "Transylvania",
         "country": "Romania",
         "duration": "4 days",
@@ -121,7 +121,7 @@
     {   
         "slug": "Sognefjord",
         "img": "fjord.jpg",
-        "title": "In the heart of Fjord Norway",
+        "title": "In The Heart Of Fjord Norway",
         "city": "Sognefjord",
         "country": "Norway",
         "duration": "12 days",
