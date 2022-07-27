@@ -60,6 +60,8 @@ export default {
 </script>
 
 <style lang="scss">
+
+
 .tours_list {
     display: flex; 
     flex-wrap: wrap;
@@ -94,9 +96,10 @@ export default {
             }
         }
         .item_content {
-            padding: 15px;
+            padding: 20px;
             display: flex;
             flex-direction: column;
+            justify-content: space-between;
             .item_title {
                 margin-bottom: 15px;
                 line-height: 26px;
@@ -114,6 +117,7 @@ export default {
                 display: flex;
                 justify-content: space-between;
                 align-items: center;
+                margin-top: auto;
             }
         }
         a:hover {

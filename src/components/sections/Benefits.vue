@@ -1,22 +1,28 @@
 <template>
-    <section class="benefits">
-        <div class="benefit" v-for="(item, i) in benefitsData" :key="i">
-            <div class="benefit_icon">
-                <img :src="require('@/assets/images/cards/'+item.img)" :alt="item.title">
-            </div>
-            <div class="benefit_content">
-                <div class="benefit_content_title">{{ item.title }}</div>
-                <div class="benefit_content_descr">{{ item.descr }}</div>
+    <section-wrapper title="Benifits of Travello" hint="Benefits">
+        <div class="benefits">
+            <div class="benefit" v-for="(item, i) in benefitsData" :key="i">
+                <div class="benefit_icon">
+                    <img :src="require('@/assets/images/cards/'+item.img)" :alt="item.title">
+                </div>
+                <div class="benefit_content">
+                    <div class="benefit_content_title">{{ item.title }}</div>
+                    <div class="benefit_content_descr">{{ item.descr }}</div>
+                </div>
             </div>
         </div>
-    </section>
+    </section-wrapper>
 </template>
 
 <script>
 import axios from 'axios'
+import SectionWrapper from '@/components/wrappers/SectionWrapper'
 
 export default {
     name: "Benefits",
+    components: {
+        SectionWrapper
+    },
     data() {
         return {
             benefitsData: []
@@ -37,6 +43,7 @@ export default {
     max-width: 650px;
     display: flex;
     flex-wrap: wrap;
+    margin: 0 auto;
     .benefit {
         padding: 10px 20px;
         flex-basis: 45%;

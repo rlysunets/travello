@@ -42,7 +42,6 @@
                             <div class="text">{{ oneItem.price }}</div>
                         </div>
                     </div>
-
                 </div>
                 <div class="about_tour">
                     <div class="hint">{{ oneItem.country }}</div>

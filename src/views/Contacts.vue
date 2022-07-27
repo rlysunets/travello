@@ -11,7 +11,6 @@
         </cards-wrapper>
 
         <my-map />
-
     </div>
 </template>
 

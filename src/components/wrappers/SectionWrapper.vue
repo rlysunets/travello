@@ -1,18 +1,16 @@
 <template>
-    <section class="section">
+    <div class="section_wrapper">
         <div class="container">
-            <div class="section_wrapper">
-                <div class="section_header">
-                    <div class="header_hint hint">{{ hint }}</div>
-                    <h2 class="header_title section_title">{{ title }}</h2>
-                </div>
-                <div class="section_body">
-                    <p>{{ descr }}</p>
-                    <slot></slot>
-                </div>
+            <div class="section_header">
+                <div class="header_hint hint">{{ hint }}</div>
+                <h2 class="header_title section_title">{{ title }}</h2>
+            </div>
+            <div class="section_body">
+                <p>{{ descr }}</p>
+                <slot></slot>
             </div>
         </div>
-    </section>
+    </div>
 </template>
 
 <script>
@@ -37,10 +35,9 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped>
-.section {
-    padding: 60px 0;
-    &_wrapper {
+<style lang="scss">
+.section_wrapper {
+        padding: 60px 0;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -60,5 +57,4 @@ export default {
             }
         }
     }
-}
 </style>

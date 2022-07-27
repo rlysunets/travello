@@ -47,6 +47,7 @@ export default {
 }
 .accordion_wrap {
     width: 700px;
+    margin: 0 auto;
     .accordion_item {
         margin-bottom: 30px;  
     }

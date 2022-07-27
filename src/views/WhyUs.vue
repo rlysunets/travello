@@ -8,10 +8,8 @@
                     :title="item.title" :p1="item.p1" :p2="item.p2" />
             </template>
         </div>
-
-        <section-wrapper title="Benifits of Travello" hint="Benefits">
-            <benefits />
-        </section-wrapper>
+            
+        <benefits />
 
         <div class="blue_bg">
             <review-carousel />
@@ -31,7 +29,6 @@
 import axios from 'axios'
 import Intro from '@/components/sections/Intro'
 import Explore from '@/components/sections/Explore'
-import SectionWrapper from '@/components/wrappers/SectionWrapper'
 import Benefits from '@/components/sections/Benefits'
 import ReviewCarousel from "@/components/modules/ReviewCarousel"
 import Faq from '@/components/sections/Faq'
@@ -42,7 +39,6 @@ export default {
     components: {
         Intro,
         Explore,
-        SectionWrapper,
         Benefits,
         ReviewCarousel,
         Accordion,

@@ -179,7 +179,6 @@ export default {
     min-height: 100vh;
     left: 0;
     top: 80px;
-    display: block;
     display: flex;
     flex-direction: column;
     transition: all .3s ease;
