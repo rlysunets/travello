@@ -15,6 +15,20 @@
         }
     },
     {   
+        "slug": "Budapest",
+        "img": "budapest.jpg",
+        "title": "Weekend In Budapest!",
+        "city": "Budapest",
+        "country": "Hungary",
+        "duration": "3 days",
+        "price": "from £250",
+        "type": "Cultural",
+        "descr": {
+            "p1": "Budapest is the capital and most populous city of Hungary. It is the ninth-largest city in the European Union by population within city limits and the second-largest city on Danube river; the city has an estimated population of 1,752,286 over a land area of about 525 square kilometres (203 square miles). Budapest, which is both a city and county, forms the centre of the Budapest metropolitan area, which has an area of 7,626 square kilometres (2,944 square miles) and a population of 3,303,786, comprising 33% of the population of Hungary.",
+            "p2": "The central area of Budapest along the Danube River is classified as a UNESCO World Heritage Site and has several notable monuments of classical architecture, including the Hungarian Parliament and the Buda Castle.The city also has around 80 geothermal springs, the largest thermal water cave system,second largest synagogue, and third largest Parliament building in the world.Budapest attracts around 12 million international tourists per year, making it a highly popular destination in Europe.It also topped the Best European Destinations 2020 list by Big7Media. Budapest also ranks as the third-best European city in a similar poll conducted by Which?."
+        }
+    },
+    {   
         "slug": "Bangkok",
         "img": "bangkok.jpg",
         "title": "Three Temples Bangkok City Tour",
@@ -30,20 +44,6 @@
         }
     },
     {   
-        "slug": "Budapest",
-        "img": "budapest.jpg",
-        "title": "Weekend In Budapest!",
-        "city": "Budapest",
-        "country": "Hungary",
-        "duration": "3 days",
-        "price": "from £250",
-        "type": "Cultural",
-        "descr": {
-            "p1": "Budapest is the capital and most populous city of Hungary. It is the ninth-largest city in the European Union by population within city limits and the second-largest city on Danube river; the city has an estimated population of 1,752,286 over a land area of about 525 square kilometres (203 square miles). Budapest, which is both a city and county, forms the centre of the Budapest metropolitan area, which has an area of 7,626 square kilometres (2,944 square miles) and a population of 3,303,786, comprising 33% of the population of Hungary.",
-            "p2": "The central area of Budapest along the Danube River is classified as a UNESCO World Heritage Site and has several notable monuments of classical architecture, including the Hungarian Parliament and the Buda Castle.The city also has around 80 geothermal springs, the largest thermal water cave system,second largest synagogue, and third largest Parliament building in the world.Budapest attracts around 12 million international tourists per year, making it a highly popular destination in Europe.It also topped the Best European Destinations 2020 list by Big7Media. Budapest also ranks as the third-best European city in a similar poll conducted by Which?."
-        }
-    },
-    {   
         "slug": "Krakov",
         "img": "krakov.jpg",
         "title": "Krakow Old Town Guided Walking Tour",
@@ -51,7 +51,7 @@
         "country": "Poland",
         "duration": "7 days",
         "price": "from £550",
-        "type": "Histoty",
+        "type": "Hike",
         "descr": {
             "p1": "Krakow is a large and beautiful city with a huge number of houses, residents, bazaars, vineyards and gardens. Kraków, the royal city continues to delight the guests who come to it. Thanks to the kind history of Krakow, we can admire this preserved unique structure of the city to this day.",
             "p2": "Today's Krakow is an integral synthesis of history and modernity. Guests arriving in the city can spend time not only exploring the numerous sights of the city, but also in charming cafes, pubs and restaurants. There are more than 200 of them in the oldest city alone. Kraków's cabarets, concert halls and theaters open their doors hospitably to spectators and connoisseurs of high art.",
@@ -71,21 +71,6 @@
             "p1": "Lviv is a city that was built with the love to harmony, with truly European charm and wonderfully delicate understanding of a beauty. The special mood and style always dominate here, which affect on everything: the names of small shops and cafes, the refined facade of the buildings, the beautiful and originally designed windows, the historical houses’ interiors in the central part of a city. At all times Lviv was well known in Europe.",
             "p2": "In Europe among Lviv museums the most considerable are: the Lviv Arts Gallery, National Museum, Historical Museum, Museum of History of Religion, Museum of Ethnography and Art, Pharmacy-Museum, Literary and Memorial Museum of Ivan Franco, Literary and Memorial Museum of S. Krushel’nyc’ka, Museum of Folk Architecture and Rural Life, Museum of Natural Scientist, Museum of “Mermaid Dniester”, Arsenal Museum.",
             "p3": "Talented masters, such as builders, architects, magnates and patrons of art, created an unique pearl of the architecture. If you arrive in Lviv, you will feel an unique spirit, taste, and passion of Galicia. Passed the narrow streets of the old city, went all round the Rynok Square, set and dreamed in some café, glanced on a city from the hummock of the Hill Vysokyi Zamok, you would feel mysticism and spirit of the Middle Ages."
-        }
-    },
-    {   
-        "slug": "Prague",
-        "img": "praga.jpg",
-        "title": "Sunny Prague",
-        "city": "Prague",
-        "country": "Chech Repablick",
-        "duration": "12 days",
-        "price": "from £1250",
-        "type": "Cultural",
-        "descr": {
-            "p1": "Prague is the capital of the Czech Republic; the largest metropolis and the most popular tourist center in Europe, annually receiving more than 6 million guests. Everyone who knows at least a little about the beauty of architecture and beer dreams of visiting this elegant and benevolent city. Since ancient times, Prague has been considered the most beautiful city in Europe, and its names - 'golden Prague', 'stone dream', 'city of a hundred spires' speak eloquently about this. Prague is narrow cobbled streets, the amazing Charles Bridge, a lot of unique sights, unforgettable Czech cuisine.",
-            "p2": "Prague is located on nine hills, which create an impressive panorama of unique views of the city, where not the last place is occupied by Prague gardens - spacious green areas.",
-            "p3": "Celetnaya Street will lead you to Staromestskaya Square, famous for its many attractions, the most famous of which is the astronomical clock with moving figures at the City Hall. Opposite the town hall stands the Church of the Virgin Mary of Tynskaya with the richest interior decoration - a fine example of the Gothic style. You can enter the cathedral for free, but photography and videography are prohibited. The church of St. Nicholas competes with the church for the beauty of the interior, the style of this religious building is Baroque. In the center of the square stands a monument to the country's national hero Jan Hus."
         }
     },
     {   
@@ -131,6 +116,21 @@
             "p1": "On this tour, you travel by a comfortable express boat on the impressive Sognefjord. Along the way, you can 'hop off' and spend one or more nights in one of the small villages by the stunning fjord. While taking a fjord break you can explore the spectacular landscape or join in on some of the exciting activities the Sognefjorda area has to offer.",
             "p2": "In addition to a stunning fjord cruise on the Sognefjord, you get a train ride with the spectacular Flåmsbana, which has several times been named as 'the world's most beautiful train ride'. The tour also includes a comfortable journey with the Bergen Railway, where you can relax and enjoy the beautiful mountain landscape passing by your window.",
             "p3": "The Sognefjord in a nutshell trip can be taken as a day trip, but we highly recommend that you to take the trip as a longer experience over several days. Feel free to spend a few nights in one of the small villages along the Sognefjord where you can join in on exciting activities, or to find peace in the inspiring landscape."
+        }
+    },
+        {   
+        "slug": "Prague",
+        "img": "praga.jpg",
+        "title": "Sunny Prague",
+        "city": "Prague",
+        "country": "Chech Repablick",
+        "duration": "12 days",
+        "price": "from £1250",
+        "type": "Cultural",
+        "descr": {
+            "p1": "Prague is the capital of the Czech Republic; the largest metropolis and the most popular tourist center in Europe, annually receiving more than 6 million guests. Everyone who knows at least a little about the beauty of architecture and beer dreams of visiting this elegant and benevolent city. Since ancient times, Prague has been considered the most beautiful city in Europe, and its names - 'golden Prague', 'stone dream', 'city of a hundred spires' speak eloquently about this. Prague is narrow cobbled streets, the amazing Charles Bridge, a lot of unique sights, unforgettable Czech cuisine.",
+            "p2": "Prague is located on nine hills, which create an impressive panorama of unique views of the city, where not the last place is occupied by Prague gardens - spacious green areas.",
+            "p3": "Celetnaya Street will lead you to Staromestskaya Square, famous for its many attractions, the most famous of which is the astronomical clock with moving figures at the City Hall. Opposite the town hall stands the Church of the Virgin Mary of Tynskaya with the richest interior decoration - a fine example of the Gothic style. You can enter the cathedral for free, but photography and videography are prohibited. The church of St. Nicholas competes with the church for the beauty of the interior, the style of this religious building is Baroque. In the center of the square stands a monument to the country's national hero Jan Hus."
         }
     }
 ]
