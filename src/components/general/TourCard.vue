@@ -1,25 +1,24 @@
 <template>
     <div class="tours_list">
         <div v-for="(item, id) in toursList" :key="id" class="tours_item">
-            <router-link :to="{ name: 'oneTour', params: { slug: item.slug }}">
-                <div class="item_pic">
-                    <div class="badge">{{ item.type }}</div>
-                    <img :src="require('@/assets/images/gallery/'+item.img)" :alt="item.city">
-                </div>
-                <div class="item_content">
-                    <h2 class="item_title">{{ item.title }}</h2>
-                    <div class="item_location">{{ item.city }}, {{ item.country}}</div>
-                    <div class="item_details">
-                        <div class="button">
-                            <my-button title="Detail" :is-icon="true" />
-                        </div>
-                        <div class="pricing">
-                            <div class="duration hint">{{ item.duration }}</div>
-                            <div class="price hint">{{ item.price }}</div>
-                        </div>
+            <router-link :to="{ name: 'oneTour', params: { slug: item.slug }}"></router-link>
+            <div class="item_pic">
+                <div class="badge">{{ item.type }}</div>
+                <img :src="require('@/assets/images/gallery/'+item.img)" :alt="item.city">
+            </div>
+            <div class="item_content">
+                <h2 class="item_title">{{ item.title }}</h2>
+                <div class="item_location">{{ item.city }}, {{ item.country}}</div>
+                <div class="item_details">
+                    <div class="button">
+                        <my-button title="Detail" :is-icon="true" />
+                    </div>
+                    <div class="pricing">
+                        <div class="duration hint">{{ item.duration }}</div>
+                        <div class="price hint">{{ item.price }}</div>
                     </div>
                 </div>
-            </router-link>
+            </div>
         </div>
     </div>
 </template>
@@ -60,50 +59,51 @@ export default {
 </script>
 
 <style lang="scss">
-
-
 .tours_list {
     display: flex; 
     flex-wrap: wrap;
     .tours_item {
+        position: relative;
         cursor: pointer;
         flex: 50%;
         padding: 20px;
+        display: flex;
+        flex-direction: column;
         .item_pic {
             position: relative;
             padding-top: 50%;
             margin-bottom: 20px;
             transition: all .3s ease-in;
-            .badge {
-                position: absolute;
-                left: 0;
-                top: 20px;
-                background-color: #2194e6;
-                color: #fff;
-                display: block;
-                z-index: 1;
-                padding: 5px 20px;
-                border-top-right-radius: 20px;
-                border-bottom-right-radius: 20px;
-            }
-            img {
-                width: 100%;
-                height: 100%;
-                object-fit: cover;
-                position: absolute;
-                left: 0;
-                top: 0;
-            }
+        }
+        .badge {
+            position: absolute;
+            left: 0;
+            top: 20px;
+            background-color: #2194e6;
+            color: #fff;
+            display: block;
+            z-index: 1;
+            padding: 5px 20px;
+            border-top-right-radius: 20px;
+            border-bottom-right-radius: 20px;
+        }
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            position: absolute;
+            left: 0;
+            top: 0;
         }
         .item_content {
             padding: 20px;
             display: flex;
             flex-direction: column;
             justify-content: space-between;
+            flex-grow: 1;
             .item_title {
                 margin-bottom: 15px;
                 line-height: 26px;
-                flex: 1 1 auto;
             }
             .item_location {
                 font-family: 'Work Sans';
@@ -117,10 +117,18 @@ export default {
                 display: flex;
                 justify-content: space-between;
                 align-items: center;
-                margin-top: auto;
             }
         }
-        a:hover {
+        a {
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            display: block;
+            z-index: 1000;
+        }
+        &:hover {
             display: block;
             box-shadow: 0px 7px 29px rgba(100, 100, 111, 0.2);
             transform: translateY(-20px);
@@ -131,6 +139,7 @@ export default {
 @media screen and (max-width: 800px) {
     .tours_list {
         .tours_item {
+            padding: 0;
             flex: 100%;
         }
     }

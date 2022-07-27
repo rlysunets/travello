@@ -144,6 +144,7 @@ export default {
                 font-size: 18px;
                 line-height: 150%;
                 color: #333333;
+                text-align: left;
                 &:not(:last-child) {
                     margin-bottom: 20px;
                 }

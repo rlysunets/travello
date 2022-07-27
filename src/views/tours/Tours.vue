@@ -59,12 +59,15 @@ export default {
         cursor: pointer;
         border-bottom: 2px solid #fff;
         padding-bottom: 5px;
-        &.active {
-            border-bottom: 2px solid rgb(85, 183, 255);
-        }
+        &.active,
         &:hover {
             border-bottom: 2px solid rgb(85, 183, 255);
         }
+    }
+}
+@media screen and (max-width: 400px) {
+    .types {
+        gap: 20px;
     }
 }
 </style>

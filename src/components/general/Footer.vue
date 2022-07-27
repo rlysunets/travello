@@ -35,11 +35,11 @@
                         <ul class="munu_list">
                             <li class="menu_item">
                                 <span>Hotel Reservation:</span>
-                                <a href="tel:1234567890" class="menu_link menu_link_bold">422-233-4344</a>
+                                <a href="tel:4222334344" class="menu_link menu_link_bold">422-233-4344</a>
                             </li>
                             <li class="menu_item">
                                 <span>Ticket Office:</span>
-                                <a href="tel:1234567890" class="menu_link menu_link_bold">422-233-4340</a>
+                                <a href="tel:4222334340" class="menu_link menu_link_bold">422-233-4340</a>
                             </li>
                             <li class="menu_item">
                                 <socials />

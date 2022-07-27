@@ -7,17 +7,16 @@
 
             <div class="news_list">
                 <div class="news_item" v-for="(item, i) in newsList" :key="i">
-                    <router-link :to="{ name: 'oneNews', params: { title: item.title } }">
-                        <div class="item_pic">
-                            <img v-if="item.urlToImage !== null" :src="item.urlToImage" :alt="item.title" @error="errorImg">
-                            <img v-else :src="require('@/assets/images/no-image-available.png')" :alt="item.title">
-                        </div>
-                        <div class="item_content">
-                            <h2 class="title">{{ item.title }}</h2>
-                            <time>{{ item.publishedAt }}</time>
-                            <p class="descr" v-html="item.description"></p>
-                        </div>
-                    </router-link>
+                    <router-link :to="{ name: 'oneNews', params: { title: item.title } }"></router-link>
+                    <div class="item_pic">
+                        <img v-if="item.urlToImage !== null" :src="item.urlToImage" :alt="item.title" @error="errorImg">
+                        <img v-else :src="require('@/assets/images/no-image-available.png')" :alt="item.title">
+                    </div>
+                    <div class="item_content">
+                        <h2 class="title">{{ item.title }}</h2>
+                        <time>{{ item.publishedAt }}</time>
+                        <p class="descr" v-html="item.description"></p>
+                    </div>
                 </div>
             </div>
         </section-wrapper>
@@ -102,10 +101,21 @@ export default {
     flex-wrap: wrap;
     justify-content: space-between;
     .news_item {
+        position: relative;
+        cursor: pointer;
         padding: 20px;
         display: flex;
         flex-direction: column;
         max-width: 33%;
+        a {
+            position: absolute;
+            z-index: 1000;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            display: block;
+        }
         .item_pic {
             position: relative;
             padding-top: 50%;
@@ -135,8 +145,7 @@ export default {
                 color: #333333;
             }
         }
-        a:hover {
-            display: block;
+        &:hover {
             box-shadow: 0px 7px 29px rgba(100, 100, 111, 0.2);
             transform: translateY(-20px);
             transition: all .3s ease-in;

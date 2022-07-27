@@ -2,7 +2,7 @@
     <div class="numbers_wrap">
         <div class="number" v-for="(item, i) in numbersData" :key="i">
             <div class="number_qty">
-                <vue3-autocounter :ref="`counter${i+1}`" :startAmount="0" :endAmount="item.qty" :duration="3" separator=" " :autoinit="false" />
+                <vue3-autocounter :ref="`counter${i+1}`" :startAmount="0" :endAmount="item.qty" :duration="1" separator=" " :autoinit="false" />
             </div>
             <div class="number_descr">{{ item.title }}</div>
         </div>
