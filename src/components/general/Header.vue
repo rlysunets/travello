@@ -65,17 +65,20 @@
             <div class="header_button" @click="toggleMenu">
                 <my-button title="Contact us" :is-icon="false" @click="$router.push('/contacts')" />
             </div>
+            <socials />
         </nav>
     </div>
 </template>
 
 <script>
-import MyButton from '@/components/general/MyButton.vue'
+import MyButton from '@/components/general/MyButton'
+import Socials from '@/components/general/Socials'
 
 export default {
     name: "Header",
     components: {
-        MyButton
+        MyButton,
+        Socials
     },
     created() {
         window.addEventListener("scroll", this.addFixedHeader)
@@ -166,17 +169,19 @@ export default {
     }
 }
 .mobile_menu {
-    padding: 20px;
+    padding: 20px 20px 90px;
     background-color: rgba(87, 185, 255, 0.6);
     position: fixed;
     z-index: 1011;
     width: 350px;
     box-shadow: 0 0 10px #FFF;
     backdrop-filter: blur(10px);
-    height: 100vh;
+    min-height: 100vh;
     left: 0;
     top: 80px;
     display: block;
+    display: flex;
+    flex-direction: column;
     transition: all .3s ease;
     transform: translateY(-200%);
     &.fixed {
@@ -197,6 +202,10 @@ export default {
             }
         }
     }
+}
+.socials {
+    justify-content: center;
+    margin-top: auto;
 }
 .hidden {
     overflow: hidden;

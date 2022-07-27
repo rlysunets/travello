@@ -42,7 +42,7 @@
                                 <a href="tel:1234567890" class="menu_link menu_link_bold">422-233-4340</a>
                             </li>
                             <li class="menu_item">
-                                <ul class="socials">
+                                <!-- <ul class="socials">
                                     <li class="social_item">
                                         <a href="https://www.facebook.com/" class="social_link"
                                             rel="nofollow, noreferrer" title="Facebook" target="_blank">
@@ -87,7 +87,8 @@
                                             </svg>
                                         </a>
                                     </li>
-                                </ul>
+                                </ul> -->
+                                <socials />
                             </li>
                         </ul>
                     </div>
@@ -100,8 +101,13 @@
 </template>
 
 <script>
+import Socials from '@/components/general/Socials'
+
 export default {
-    name: "Footer"
+    name: "Footer",
+    components: {
+        Socials
+    }
 }
 </script>
 
@@ -159,30 +165,31 @@ export default {
             }
         }
     }
-    .socials {
-        margin-left: -10px;
-        display: flex;
-        gap: 20px;
-        .social_item {
-            width: 40px;
-            height: 40px;
-            .social_link {
-                width: 100%;
-                height: 100%;
-                align-items: center;
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                transition: all .2s ease;
-                border-radius: 50%;
-                &:hover {
-                    outline: 2px solid #fff;
-                    transform: scale(1.05);
-                }
-            }
+    // .socials {
+    //     margin-left: -10px;
+    //     padding-top: 20px;
+    //     display: flex;
+    //     gap: 20px;
+    //     .social_item {
+    //         width: 40px;
+    //         height: 40px;
+    //         .social_link {
+    //             width: 100%;
+    //             height: 100%;
+    //             align-items: center;
+    //             display: flex;
+    //             align-items: center;
+    //             justify-content: center;
+    //             transition: all .2s ease;
+    //             border-radius: 50%;
+    //             &:hover {
+    //                 outline: 2px solid #fff;
+    //                 transform: scale(1.05);
+    //             }
+    //         }
 
-        }
-    }
+    //     }
+    // }
 }
 @media screen and (max-width: 768px) {
 .footer_content {
