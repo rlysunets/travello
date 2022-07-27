@@ -1,17 +1,26 @@
 [
     {
+        "id": "address",
         "img": "cil_location-pin.svg",
         "title": "Address",
-        "descr": "18 Belgrave Square London, UK"
+        "descr": "18 Belgrave Square London, UK",
+        "tel": "",
+        "email": ""
     },
     {
+        "id": "email",
         "img": "ic_outline-email.svg",
         "title": "Email",
-        "descr": "travello@gmail.com"
+        "descr": "travello@gmail.com",
+        "tel": "",
+        "email": "travello@gmail.com"
     },
     {
+        "id": "tel",
         "img": "akar-icons_phone.svg",
         "title": "Phone",
-        "descr": "+422-233-4344"
+        "descr": "+422-233-4344",
+        "tel": "1234567890",
+        "email": ""
     }
 ]
