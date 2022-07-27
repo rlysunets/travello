@@ -26,9 +26,9 @@
 
 <script>
 import axios from 'axios'
-import Intro from "@/components/sections/Intro.vue"
-import SectionWrapper from '@/components/wrappers/SectionWrapper.vue'
-import Pagination from '@/components/general/Pagination.vue'
+import Intro from "@/components/sections/Intro"
+import SectionWrapper from '@/components/wrappers/SectionWrapper'
+import Pagination from '@/components/general/Pagination'
 
 export default {
     name: "News",
@@ -142,7 +142,6 @@ export default {
             transition: all .3s ease-in;
         }
     }
-    
 }
 @media screen and (max-width: 750px) {
     .news_list {

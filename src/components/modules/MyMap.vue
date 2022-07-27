@@ -34,12 +34,14 @@ export default {
 </script>
 
 <style lang="scss">
+
 .map {
     width: 100%;
     height: 500px;
-    max-height: 80vh;
+    max-height: 70vh;
     background: #fff;
 }
+.leaflet-control-attribution a,
 .leaflet-popup-close-button {
     display: none;
 }

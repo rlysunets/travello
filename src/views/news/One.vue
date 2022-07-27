@@ -18,7 +18,7 @@
 
 <script>
 import axios from 'axios'
-import MyButton from '@/components/general/MyButton.vue'
+import MyButton from '@/components/general/MyButton'
 
 export default {
     name: "One",

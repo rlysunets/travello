@@ -8,7 +8,7 @@
 </template>
 
 <script>
-import MyButton from '@/components/general/MyButton.vue'
+import MyButton from '@/components/general/MyButton'
 
 export default {
     name: "Ask",
@@ -30,12 +30,18 @@ export default {
     display: flex;
     align-items: center;
     justify-content: space-around;
+    gap: 20px;
     padding-top: 50px;
-
     &_question {
         font-size: 18px;
         line-height: 24px;
         color: #2094E6;
+    }
+}
+@media screen and (max-width: 350px) {
+    .ask {
+        flex-direction: column;
+        gap: 20px;
     }
 }
 </style>

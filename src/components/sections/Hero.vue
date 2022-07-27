@@ -2,7 +2,7 @@
     <section class="hero">
         <div class="container">
             <div class="hero_wrap">
-                <h2 class="hero_title">Explore new places with Travello</h2>
+                <h1 class="hero_title">Explore new places with Travello</h1>
                 <div class="hero_descr">
                     The Travello company has over 30 years of professional experience in the field of outbound
                     tourism and offers only high-quality tour products on the tourist market.
@@ -14,7 +14,7 @@
 </template>
 
 <script>
-import MyButton from '@/components/general/MyButton.vue'
+import MyButton from '@/components/general/MyButton'
 
 export default {
     name: "Hero",
@@ -24,7 +24,7 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped>
+<style lang="scss">
 .hero {
     margin-bottom: 60px;
     background-image: url(@/assets/images/intro/hero_home.jpg);

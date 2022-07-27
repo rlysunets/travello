@@ -23,7 +23,7 @@
 </template>
 
 <script>
-import MyButton from '@/components/general/MyButton.vue'
+import MyButton from '@/components/general/MyButton'
 
 export default {
     name: "Explore",
@@ -66,7 +66,6 @@ export default {
 </script>
 
 <style lang="scss">
-
 .explore_wrap {
     padding-bottom: 80px;
     display: flex;
@@ -102,7 +101,6 @@ export default {
                 font-size: 18px;
                 line-height: 150%;
                 color: #333333;
-
                 &:not(:last-child) {
                     margin-bottom: 20px;
                 }
@@ -110,7 +108,6 @@ export default {
         }
     }
 }
-
 @media screen and (max-width: 1100px) {
     .explore_wrap {
         padding-bottom: 40px;
@@ -141,5 +138,4 @@ export default {
         }
     }
 }
-
 </style>

@@ -7,7 +7,7 @@
 </template>
 
 <script>
-import SectionWrapper from '@/components/wrappers/SectionWrapper.vue'
+import SectionWrapper from '@/components/wrappers/SectionWrapper'
 
 export default {
     name: "Trvel",
@@ -18,7 +18,6 @@ export default {
 </script>
 
 <style lang="scss">
-
 .travel {
     padding: 120px 0;
     background-image: url(@/assets/images/travel/travel.jpg);

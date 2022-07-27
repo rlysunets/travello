@@ -26,7 +26,7 @@
 
 <script>
 import axios from 'axios'
-import MyButton from '@/components/general/MyButton.vue'
+import MyButton from '@/components/general/MyButton'
 
 export default {
     name: "TourCard",
@@ -94,11 +94,14 @@ export default {
             }
         }
         .item_content {
-            padding: 20px;
+            padding: 15px;
+            display: flex;
+            flex-direction: column;
             .item_title {
                 margin-bottom: 15px;
+                line-height: 26px;
+                flex: 1 1 auto;
             }
-        
             .item_location {
                 font-family: 'Work Sans';
                 font-weight: 400;
@@ -107,7 +110,6 @@ export default {
                 color: #333333;
                 margin-bottom: 30px;
             }
-        
             .item_details {
                 display: flex;
                 justify-content: space-between;

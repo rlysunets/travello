@@ -13,10 +13,10 @@
 
 <script>
 import axios from 'axios'
-import SectionWrapper from '@/components/wrappers/SectionWrapper.vue'
-import Accordion from '@/components/modules/Accordion.vue'
-import MyButton from '@/components/general/MyButton.vue'
-import Ask from '@/components/sections/Ask.vue'
+import SectionWrapper from '@/components/wrappers/SectionWrapper'
+import Accordion from '@/components/modules/Accordion'
+import MyButton from '@/components/general/MyButton'
+import Ask from '@/components/sections/Ask'
 
 export default {
     name: "Questions",
@@ -59,6 +59,11 @@ export default {
 @media screen and (max-width: 540px) {
     .accordion_wrap {
         width: 350px;
+    }
+}
+@media screen and (max-width: 400px) {
+    .accordion_wrap {
+        width: 320px;
     }
 }
 </style>

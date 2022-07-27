@@ -13,19 +13,19 @@
                         <div class="menu_title">Learn More</div>
                         <ul class="munu_list">
                             <li class="menu_item">
-                                <a href="#" class="menu_link">About Lift</a>
+                                <router-link class="menu_link" to="/about">About Travello</router-link>
                             </li>
                             <li class="menu_item">
-                                <a href="#" class="menu_link">Press Relaases</a>
+                                <router-link class="menu_link" to="/explores">Explore With Travello</router-link>
                             </li>
                             <li class="menu_item">
-                                <a href="#" class="menu_link">Environment</a>
+                                <router-link class="menu_link" to="/quastions">Frequently Asked Questions</router-link>
                             </li>
                             <li class="menu_item">
-                                <a href="#" class="menu_link">Jobs</a>
+                                <router-link class="menu_link" to="/reviews">Recent Customer Reviews</router-link>
                             </li>
                             <li class="menu_item">
-                                <a href="#" class="menu_link">Privacy Policy</a>
+                                <router-link class="menu_link" to="/news">Latest News</router-link>
                             </li>
                         </ul>
                     </div>
@@ -114,18 +114,20 @@ export default {
     font-size: 18px;
     line-height: 18px;
     color: #FFFFFF;
-    &_content {
-        margin-bottom: 86px;
-        display: flex;
-        justify-content: space-between;
-    }
-
-    &_copy {
-        text-align: center;
+    &_wrap {
+        .footer_content {
+            margin-bottom: 86px;
+            display: flex;
+            justify-content: space-between;
+            gap: 40px;
+        }
+        .footer_copy {
+            text-align: center;
+            line-height: 26px;
+        }
     }
 }
 .footer_menu {
-    padding: 15px 20px;
     .menu_title {
         margin-bottom: 25px;
     }
@@ -145,12 +147,10 @@ export default {
                 font-weight: 400;
                 font-size: 14px;
                 opacity: 0.8;
-        
                 &_bold {
                     font-weight: 500;
                     opacity: 1;
                 }
-        
                 &:hover {
                     border-bottom: 1px solid #FFFFFF;
                     padding-bottom: 2px;
@@ -160,8 +160,9 @@ export default {
         }
     }
     .socials {
+        margin-left: -10px;
         display: flex;
-        gap: 25px;
+        gap: 20px;
         .social_item {
             width: 40px;
             height: 40px;
@@ -184,27 +185,11 @@ export default {
     }
 }
 @media screen and (max-width: 768px) {
-    .footer {
-        &_content {
-            flex-wrap: wrap;
-            .footer_logo {
-                flex: 100%;
-                margin-bottom: 25px;
-            }
-            .footer_menu {
-                padding: 0 20px 20px 0;
-            }
+.footer_content {
+        flex-wrap: wrap;
+        .footer_logo {
+            flex-basis: 100%;
         }
     }
 }
-// @media screen and (max-width: 750px) {
-//     .footer {
-//         &_content {
-//             .footer_menu {
-//                 flex: 50%;
-//                 padding: 0 20px 20px 0;
-//             }
-//         }
-//     }
-// }
 </style>

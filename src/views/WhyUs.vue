@@ -29,13 +29,13 @@
 
 <script>
 import axios from 'axios'
-import Intro from '@/components/sections/Intro.vue'
-import Explore from '@/components/sections/Explore.vue'
-import SectionWrapper from '@/components/wrappers/SectionWrapper.vue'
-import Benefits from '@/components/sections/Benefits.vue'
-import ReviewCarousel from "@/components/modules/ReviewCarousel.vue"
-import Faq from '@/components/sections/Faq.vue'
-import Accordion from '@/components/modules/Accordion.vue'
+import Intro from '@/components/sections/Intro'
+import Explore from '@/components/sections/Explore'
+import SectionWrapper from '@/components/wrappers/SectionWrapper'
+import Benefits from '@/components/sections/Benefits'
+import ReviewCarousel from "@/components/modules/ReviewCarousel"
+import Faq from '@/components/sections/Faq'
+import Accordion from '@/components/modules/Accordion'
 
 export default {
     name: "WhyUs",

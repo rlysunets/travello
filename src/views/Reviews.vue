@@ -11,8 +11,8 @@
 
 <script>
 import axios from 'axios'
-import SectionWrapper from '@/components/wrappers/SectionWrapper.vue';
-import Review from '@/components/sections/Review.vue';
+import SectionWrapper from '@/components/wrappers/SectionWrapper'
+import Review from '@/components/sections/Review'
 
 export default {
     name: "Reviews",
@@ -36,7 +36,6 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-
 .reviews {
     padding-top: 50px;
 }

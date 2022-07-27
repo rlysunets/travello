@@ -20,12 +20,12 @@
 
 <script>
 import axios from "axios"
-import Hero from '@/components/sections/Hero.vue'
-import Explore from '@/components/sections/Explore.vue'
-import Card from "@/components/general/Card.vue"
-import CardsWrapper from "@/components/wrappers/CardsWrapper.vue"
-import Travel from "@/components/sections/Travel.vue"
-import ReviewCarousel from "@/components/modules/ReviewCarousel.vue"
+import Hero from '@/components/sections/Hero'
+import Explore from '@/components/sections/Explore'
+import Card from "@/components/general/Card"
+import CardsWrapper from "@/components/wrappers/CardsWrapper"
+import Travel from "@/components/sections/Travel"
+import ReviewCarousel from "@/components/modules/ReviewCarousel"
 
 export default {
     name: "Home",
@@ -35,7 +35,7 @@ export default {
         Card,
         CardsWrapper,
         Travel,
-        ReviewCarousel,
+        ReviewCarousel
     },
     data() {
         return {
@@ -58,7 +58,3 @@ export default {
     }
 }
 </script>
-
-<style lang="scss" scoped>
-
-</style>

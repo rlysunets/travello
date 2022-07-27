@@ -10,6 +10,7 @@
 <script>
 import { VueCollapsiblePanelGroup, VueCollapsiblePanel } from '@dafcoe/vue-collapsible-panel'
 import '@dafcoe/vue-collapsible-panel/dist/vue-collapsible-panel.css'
+
 export default {
     name: "Accordion",
     components: {

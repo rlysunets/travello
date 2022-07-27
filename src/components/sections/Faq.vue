@@ -20,7 +20,7 @@
 </template>
 
 <script>
-import MyButton from '@/components/general/MyButton.vue'
+import MyButton from '@/components/general/MyButton'
 
 export default {
     name: "Faq",
@@ -31,7 +31,6 @@ export default {
 </script>
 
 <style lang="scss">
-
 .faq {
     padding: 60px 0;
     &_wrap {

@@ -34,14 +34,13 @@
             <button class="btn form_button" type="submit">Send message</button>
         </form>
         <modal-window v-if="showModal" @close="showModal = false">
-            <template #body v-if="answer.success === null">{{ msg }}</template>
-            <template #body v-else>{{ answer.msg }}</template>
+            <template #body>{{ answer.msg }}</template>
         </modal-window>
     </div>
 </template>
 
 <script>
-import ModalWindow from '@/components/general/ModalWindow.vue'
+import ModalWindow from '@/components/general/ModalWindow'
 
 export default {
     name: "Form",
@@ -94,6 +93,11 @@ export default {
             if (this.phone === "") {
                 this.error.phone = "Enter your phone number"
                 valid = false
+            } else {
+                if (this.isValidPhone(this.phone) === false) {
+                    this.error.phone = "Еhe number must contain 10 digits"
+                    valid = false
+                }
             }
             if (this.subject === "") {
                 this.error.subject = "Enter subject text"
@@ -124,6 +128,7 @@ export default {
                             this.answer.success = false
                             this.answer.msg = resp.description
                             this.showModal = true
+                            this.name = this.email = this.phone = this.subject = this.message = ""
                         }
                     })
                     .catch(() => {
@@ -136,11 +141,16 @@ export default {
         resetError(field) {
             this.error[field] = ""
         },
+        isValidPhone(phone) {
+            return Boolean(phone.match(
+                /^[\+]?[(]?[0-9]{3}[)]?[-\s\.]?[0-9]{3}[-\s\.]?[0-9]{4,6}$/im
+            ))
+        },
         isValidEmail(email) {
             return Boolean(email.match(
                 /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/
             ))
-        },
+        }
     }
 }
 </script>

@@ -59,8 +59,8 @@
 
 <script>
 import axios from 'axios'
-import SectionWrapper from '@/components/wrappers/SectionWrapper.vue'
-import Ask from '@/components/sections/Ask.vue'
+import SectionWrapper from '@/components/wrappers/SectionWrapper'
+import Ask from '@/components/sections/Ask'
 
 export default {
     name: "OneTour",
@@ -171,9 +171,14 @@ export default {
                 }
             }
             .about_tour {
-                flex-basis: 1000%;
+                flex-basis: 100%;
             }
         }
     }
+}
+@media screen and (max-width: 450px) {
+    .one_tour .item_content .sidebar_block {
+        flex: 100%;
+    }  
 }
 </style>

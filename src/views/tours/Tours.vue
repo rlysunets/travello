@@ -22,11 +22,11 @@
 </template>
 
 <script>
-import Intro from "@/components/sections/Intro.vue"
-import SectionWrapper from '@/components/wrappers/SectionWrapper.vue'
-import TourCard from '@/components/general/TourCard.vue'
-import Travel from "@/components/sections/Travel.vue"
-import Gallery from '@/components/modules/Gallery.vue'
+import Intro from "@/components/sections/Intro"
+import SectionWrapper from '@/components/wrappers/SectionWrapper'
+import TourCard from '@/components/general/TourCard'
+import Travel from "@/components/sections/Travel"
+import Gallery from '@/components/modules/Gallery'
 
 export default {
     name: "Tours",
@@ -35,7 +35,7 @@ export default {
         TourCard,
         SectionWrapper,
         Travel,
-        Gallery,
+        Gallery
     },
     data() {
         return {

@@ -9,8 +9,8 @@
 
 <script>
 import axios from "axios"
-import Explore from '@/components/sections/Explore.vue'
-import SectionWrapper from '@/components/wrappers/SectionWrapper.vue'
+import Explore from '@/components/sections/Explore'
+import SectionWrapper from '@/components/wrappers/SectionWrapper'
 
 export default {
     name: "Explores",
@@ -36,5 +36,10 @@ export default {
 <style lang="scss" scoped>
 .explores {
     padding-top: 50px;
+}
+@media screen and (max-width: 800px) {
+    .section {
+        padding: 60px 0 0;
+    }
 }
 </style>
