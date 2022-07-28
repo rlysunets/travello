@@ -1,24 +1,30 @@
-# travello
+Hello. My name is Roman. It`s my final project on Vue3 in Beetroot Academy Front-End development course.
+This is the business card site of the travel company Travello. On this site you can get to know the company and its offers.
 
-## Project setup
-```
-npm install
-```
+The project is created from components that are reused. All data is obtained dynamically from json files.
+I used News API and Telegram API(data from the form is sent to the Telegram bot). RWD is fully supported.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+Stack used
+    Vue3 modules
+        @dafcoe/vue-collapsible-panel
+        @vue-leaflet/vue-leaflet
+        lightgallery
+        vue3-autocounter
+        vue3-carousel
+        vue3-progress
+    Vue-router
+    Axios & Fetch
+    Cscc
+    Git
 
-### Compiles and minifies for production
-```
-npm run build
-```
+Live version
+https://rlysunets.github.io/travello/#/
 
-### Lints and fixes files
-```
-npm run lint
-```
+My LinkedIn
+https://www.linkedin.com/in/roman-lysunets-21b166225/
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+
+
+
+
+    
