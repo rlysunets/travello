@@ -1,6 +1,6 @@
 <template>
     <div>
-        <form method="post" class="form" @submit.prevent="checkAndSend">
+        <form class="form" @submit.prevent="checkAndSend">
             <div class="input_wrap">
                 <div class="error">{{ error.name }}</div>
                 <input type="text" id="name" :class="{ 'invalid': error.name }" v-model="name"
@@ -34,7 +34,7 @@
             <button class="btn form_button" type="submit">Send message</button>
         </form>
         <modal-window v-if="showModal" @close="showModal = false">
-            <template #body>{{ answer.msg }}</template>
+            <template #body>{{ answer }}</template>
         </modal-window>
     </div>
 </template>
@@ -64,10 +64,7 @@ export default {
                 subject: "",
                 message: "",
             },
-            answer: {
-                success: null,
-                msg: ""
-            }
+            answer: ""
         }
     },
     methods: {
@@ -95,7 +92,7 @@ export default {
                 valid = false
             } else {
                 if (this.isValidPhone(this.phone) === false) {
-                    this.error.phone = "Еhe number must contain 10 digits"
+                    this.error.phone = "The number must contain 10 digits"
                     valid = false
                 }
             }
@@ -120,20 +117,17 @@ export default {
                     })
                     .then(resp => {
                         if (resp.ok) {
-                            this.answer.success = true
-                            this.answer.msg = "Message successfully send"
+                            this.answer = "Message successfully send"
                             this.showModal = true
                             this.name = this.email = this.phone = this.subject = this.message = ""
                         } else {
-                            this.answer.success = false
-                            this.answer.msg = resp.description
+                            this.answer = resp.description
                             this.showModal = true
                             this.name = this.email = this.phone = this.subject = this.message = ""
                         }
                     })
                     .catch(() => {
-                        this.answer.success = false
-                        this.answer.msg = "Some error eccures. Please try again later"
+                        this.answer = "Some error eccures. Please try again later"
                         this.showModal = true
                     })
             }

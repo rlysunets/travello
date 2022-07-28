@@ -1,9 +1,11 @@
 <template>
     <div class="tours_list">
         <div v-for="(item, id) in toursList" :key="id" class="tours_item">
-            <router-link :to="{ name: 'oneTour', params: { slug: item.slug }}"></router-link>
             <div class="item_pic">
+                <router-link :to="{ name: 'oneTour', params: { slug: item.slug }}"></router-link>
+                
                 <div class="badge">{{ item.type }}</div>
+                
                 <img :src="require('@/assets/images/gallery/'+item.img)" :alt="item.city">
             </div>
             <div class="item_content">
@@ -11,7 +13,11 @@
                 <div class="item_location">{{ item.city }}, {{ item.country}}</div>
                 <div class="item_details">
                     <div class="button">
-                        <my-button title="Detail" :is-icon="true" />
+                        <my-button title="Detail" :is-icon="true">
+                            <slot>
+                                <router-link :to="{ name: 'oneTour', params: { slug: item.slug }}"></router-link>
+                            </slot>
+                        </my-button>
                     </div>
                     <div class="pricing">
                         <div class="duration hint">{{ item.duration }}</div>
@@ -63,13 +69,12 @@ export default {
     display: flex; 
     flex-wrap: wrap;
     .tours_item {
-        position: relative;
-        cursor: pointer;
         flex: 50%;
         padding: 20px;
         display: flex;
         flex-direction: column;
         .item_pic {
+            cursor: pointer;
             position: relative;
             padding-top: 50%;
             margin-bottom: 20px;
@@ -117,6 +122,9 @@ export default {
                 display: flex;
                 justify-content: space-between;
                 align-items: center;
+                .button {
+                    position: relative;
+                }
             }
         }
         a {

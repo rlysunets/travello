@@ -46,7 +46,6 @@
 <script>
 export default {
     name: "Socials"
-
 }
 </script>
 
@@ -73,7 +72,6 @@ export default {
                 transform: scale(1.05);
             }
         }
-
     }
 }
 </style>

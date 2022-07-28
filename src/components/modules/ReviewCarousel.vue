@@ -18,7 +18,7 @@
 import axios from 'axios'
 import 'vue3-carousel/dist/carousel.css';
 import { Carousel, Slide, Navigation } from 'vue3-carousel';
-import Review from '@/components/sections/Review.vue';
+import Review from '@/components/sections/Review';
 
 export default {
     name: "ReviewCarousel",

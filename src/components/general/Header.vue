@@ -4,7 +4,7 @@
         <header class="header">
             <div class="container">
                 <div class="header_wrap">
-                    <div class="header_logo">
+                    <div class="header_logo" @click="removeMenu">
                         <router-link to="/">
                             <img src="@/assets/images/header_logo.svg" alt="Travello logo">
                         </router-link>
@@ -98,6 +98,9 @@ export default {
             document.querySelector(".mobile_menu").classList.toggle("active")
             document.querySelector("#overlay").classList.toggle("open")
             document.querySelector("body").classList.toggle("hidden")
+        },
+        removeMenu() {
+            document.querySelector(".mobile_menu").classList.remove("active")
         }
     }
 }

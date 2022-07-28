@@ -1,5 +1,5 @@
 [
-    {   
+    {
         "slug": "Amsterdam",
         "img": "amsterdam.jpg",
         "title": "Evening Amsterdam",
@@ -7,14 +7,14 @@
         "country": "Netherlands",
         "duration": "7 days",
         "price": "from £899",
-        "type": "Cultural",
+        "type": "Histoty",
         "descr": {
             "p1": "Visit the world-famous 17th century capital of Holland. Enjoy the historic buildings, beautiful museums and pleasant ambiance. Go for a boat tour on the canals, stroll through Vondelpark, and go shopping in the inner city. Amsterdam is a unique city!",
             "p2": "Amsterdam is alive with creative initiatives. From cultural melting pots and the hippest restaurants with phenomenal views to workshops and interior design shops with vintage items. ",
             "p3": "NDSM’s innovative bars and cafes are another of the area’s biggest attractions. A firm favorite for many is Pllek, a wonderful spot that was constructed using recycled shipping containers and offers magnificent views of the IJ and its banks. The menu is fully organic, featuring only the highest-quality cuts of meat, sustainably caught fish and local produce. Nearby, Noorderlicht Café is situated in a large greenhouse that promises one of the best-positioned terraces in the neighborhood, packed with greenery and overlooking the River IJ. Its interior is peppered with quirky uneven furniture and décor, adding to the nonchalant bohemian feel. There’s also Café de Ceuvel, an uncompromisingly unconventional café that’s striving for complete sustainability."
         }
     },
-    {   
+    {
         "slug": "Budapest",
         "img": "budapest.jpg",
         "title": "Weekend In Budapest!",
@@ -28,7 +28,7 @@
             "p2": "The central area of Budapest along the Danube River is classified as a UNESCO World Heritage Site and has several notable monuments of classical architecture, including the Hungarian Parliament and the Buda Castle.The city also has around 80 geothermal springs, the largest thermal water cave system,second largest synagogue, and third largest Parliament building in the world.Budapest attracts around 12 million international tourists per year, making it a highly popular destination in Europe.It also topped the Best European Destinations 2020 list by Big7Media. Budapest also ranks as the third-best European city in a similar poll conducted by Which?."
         }
     },
-    {   
+    {
         "slug": "Bangkok",
         "img": "bangkok.jpg",
         "title": "Three Temples Bangkok City Tour",
@@ -43,11 +43,11 @@
             "p3": "Bangkok, Thai Krung Thep, city, capital, and chief port of Thailand. It is the only cosmopolitan city in a country of small towns and villages and is Thailand’s cultural and commercial centre."
         }
     },
-    {   
-        "slug": "Krakov",
+    {
+        "slug": "Krakow",
         "img": "krakov.jpg",
         "title": "Krakow Old Town Guided Walking Tour",
-        "city": "Krakov",
+        "city": "Krakow",
         "country": "Poland",
         "duration": "7 days",
         "price": "from £550",
@@ -58,7 +58,7 @@
             "p3": "It is difficult to determine the best time to travel to the Polish capital. In this excursion city, there are no such concepts as 'high season' or 'low season'. However, according to locals, significantly more tourists come here in the warm season."
         }
     },
-    {   
+    {
         "slug": "Lviv",
         "img": "lviv.jpg",
         "title": "Lviv - Cultural Capital Of Ukraine",
@@ -73,7 +73,7 @@
             "p3": "Talented masters, such as builders, architects, magnates and patrons of art, created an unique pearl of the architecture. If you arrive in Lviv, you will feel an unique spirit, taste, and passion of Galicia. Passed the narrow streets of the old city, went all round the Rynok Square, set and dreamed in some café, glanced on a city from the hummock of the Hill Vysokyi Zamok, you would feel mysticism and spirit of the Middle Ages."
         }
     },
-    {   
+    {
         "slug": "Roma",
         "img": "roma.jpg",
         "title": "Excursion To The Eternal City!",
@@ -88,7 +88,7 @@
             "p3": "Rome is also called 'the city on seven hills.' Initially, the settlements were located on the Palatine Hill, later the neighboring hills were settled: Capitol and Quirinal. Somewhat later, settlements appeared on the last four hills (Celia, Aventine, Esquiline and Viminale)."
         }
     },
-    {   
+    {
         "slug": "Transylvania",
         "img": "romania.jpg",
         "title": "Weekend At Dracula's Castle",
@@ -103,7 +103,7 @@
             "p3": "In popular culture, Transylvania is commonly associated with vampires because of the influence of Bram Stoker's 1897 novel Dracula and subsequent books and many films that have been inspired by the tale."
         }
     },
-    {   
+    {
         "slug": "Sognefjord",
         "img": "fjord.jpg",
         "title": "In The Heart Of Fjord Norway",
@@ -118,7 +118,7 @@
             "p3": "The Sognefjord in a nutshell trip can be taken as a day trip, but we highly recommend that you to take the trip as a longer experience over several days. Feel free to spend a few nights in one of the small villages along the Sognefjord where you can join in on exciting activities, or to find peace in the inspiring landscape."
         }
     },
-        {   
+    {
         "slug": "Prague",
         "img": "praga.jpg",
         "title": "Sunny Prague",
