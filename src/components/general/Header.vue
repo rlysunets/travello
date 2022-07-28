@@ -100,7 +100,10 @@ export default {
             document.querySelector("body").classList.toggle("hidden")
         },
         removeMenu() {
+            document.querySelector(".hamburger").classList.remove("is-active")
             document.querySelector(".mobile_menu").classList.remove("active")
+            document.querySelector("#overlay").classList.remove("open")
+            document.querySelector("body").classList.remove("hidden")
         }
     }
 }
